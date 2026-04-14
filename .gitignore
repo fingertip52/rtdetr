@@ -24,6 +24,7 @@ output/
 eval.pth
 log.txt
 results_*.jpg
+vis_demo/
 
 # Dataset
 dataset/visdrone_raw/
