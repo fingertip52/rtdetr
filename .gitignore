@@ -1,0 +1,32 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE / editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Training outputs and artifacts
+output/
+*.pth
+*.pt
+*.onnx
+*.engine
+eval.pth
+log.txt
+results_*.jpg
+
+# Dataset
+dataset/visdrone_raw/
+dataset/visdrone_coco/
+dataset/**/images/
+dataset/**/annotations/

@@ -1,0 +1,16 @@
+__include__:
+  - ../dataset/visdrone_detection.yml
+  - ../runtime.yml
+  - ./include/dataloader.yml
+  - ./include/optimizer.yml
+  - ./include/rtdetr_r50vd.yml
+
+output_dir: ./output/rtdetr_r50vd_debug_visdrone
+
+epoches: 1
+
+train_dataloader:
+  batch_size: 2
+
+val_dataloader:
+  batch_size: 2
