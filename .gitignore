@@ -9,6 +9,7 @@ env/
 
 # IDE / editor
 .vscode/
+.claude/
 .idea/
 
 # OS files
@@ -28,6 +29,5 @@ vis_demo/
 
 # Dataset
 dataset/visdrone_raw/
-dataset/visdrone_coco/
 dataset/**/images/
 dataset/**/annotations/
